@@ -1,0 +1,14 @@
+[
+    {
+        "name":"Prison Cell",
+        "Description":"There are only a small bed, a mirror above a sink and a toilet.\nThe door of the cell is to the east of the room with a tiny peephole in it. ", 
+        "width":10,
+        "length":10
+    },
+    {
+        "name":"Tunnel",
+        "Description":"A small tunnel that barely fits one person!",
+        "width":1,
+        "length":10
+    }
+]

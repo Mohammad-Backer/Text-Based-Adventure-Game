@@ -1,0 +1,108 @@
+[
+    {
+        "name":"bed",
+        "gettable": false,
+        "Description":"A small bed, that barely fits one person. \nThere is a hard mattress on top of it.",
+        "Shovable": true,
+        "Room":"Prison Cell",
+        "pos_x":10,
+        "pos_y":10,
+        "usable":true,
+        "visible":true,
+        "used":"Better get a rest!"
+    },
+    {
+        "name":"mattress",
+        "Description":"A mattress on top of the bed. Seems like there is something underneath it.",
+        "Room":"Prison Cell",
+        "gettable":false,
+        "Shovable":true,
+        "pos_x":10,
+        "pos_y":10,
+        "usable":true,
+        "visible":true
+    },
+    {
+        "name":"mirror",
+        "Description":"A dirty mirror!",
+        "Room":"Prison Cell",
+        "gettable":false,
+        "Shovable":false,
+        "pos_x":7,
+        "pos_y":10,
+        "usable":true,
+        "visible":true,
+        "used":"I can see myself.\n Long curly hair. A thick beard that hasn't been trimmed for a while.\nTired dark brown eyes and thin dry lips.\n So this is me!\n"
+    },
+    {
+        "name":"Peephole",
+        "Description":"I should use it to see what is beyond this door",
+        "Room":"Prison Cell",
+        "gettable":false,
+        "Shovable":false,
+        "pos_x":0,
+        "pos_y":5,
+        "usable":true,
+        "visible":true,
+        "used":"There is a guard there!\nThank god he is asleep! I should be careful with the noise!"
+    },
+    {
+        "name":"Screw Driver",
+        "Description":"A small screw driver, shoved under the mattress. It can be useful!",
+        "Room":"Prison Cell",
+        "gettable":true,
+        "Shovable":false,
+        "pos_x":10,
+        "pos_y":10,
+        "usable":false,
+        "visible":false,
+        "used":""
+    },
+    {
+        "name":"toilet",
+        "Description":"Shit! It looks like it is leaking a bit.",
+        "Room":"Prison Cell",
+        "gettable":false,
+        "Shovable":true,
+        "pos_x":7,
+        "pos_y":0,
+        "usable":true,
+        "visible":true,
+        "used":"Nothing beats a nice shit!"
+    },
+    {
+        "name":"toilet paper",
+        "Description":"At least there is some!",
+        "Room":"Prison Cell",
+        "gettable":true,
+        "Shovable":false,
+        "pos_x":7,
+        "pos_y":0,
+        "visible":true,
+        "usable":null
+    },
+    {
+        "name":"Sink",
+        "Description":"I can at least wash the filth of my face at least",
+        "Room":"Prison Cell",
+        "gettable":false,
+        "Shovable":false,
+        "pos_x":7,
+        "pos_y":10,
+        "usable":true,
+        "visible":true,
+        "used":"Oh nice! The water is cool!\nI feel refreshed as fuck! "
+    },
+    {
+        "name":"Tunnel",
+        "Description":"Looks like I can escape from here!",
+        "Room":"Prison Cell",
+        "usable":false,
+        "gettable":false,
+        "pos_x":7,
+        "pos_y":0,
+        "Shovable":false,
+        "visible":false,
+        "used":"It is so narrow!"
+    }
+]
